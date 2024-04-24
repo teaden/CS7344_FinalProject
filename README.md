@@ -6,8 +6,8 @@ LLMChatroom is a web-based chat application that allows human users to interact 
 
 Users can run the code in a Node.js environment via use of the below scripts and commands. 
 
-•	npm install: This command acquires all necessary dependencies.
-•	npm run start-client: This script starts the client React code that displays the chatroom and allows clients to send messages to the server
+* npm install: This command acquires all necessary dependencies.
+* npm run start-client: This script starts the client React code that displays the chatroom and allows clients to send messages to the server
 
 ## Starting the Server Code Locally
 
@@ -21,15 +21,15 @@ For generating responses to clients, the server code directly utilizes a miniatu
 
 For running the server code locally, it is important that the below scripts be executed in the order shown for the following reason. The client code first attempts to connect to the server hosted on the Google Compute Engine VM before defaulting to a localhost server connection. Running ‘npm run start-server’ before ‘npm run start-client’ ensures that the server is available for the client locally if the connection to the Google Compute Engine VM fails.
 
-•	npm install: This command acquires all necessary dependencies.
-•	npm run start-server: This script locally starts the ASGI FastAPI code that processes client messages and returns LLM responses.
-•	npm run start-client: This script starts the client React code that displays the chatroom and allows clients to send messages to the server.
+* npm install: This command acquires all necessary dependencies.
+* npm run start-server: This script locally starts the ASGI FastAPI code that processes client messages and returns LLM responses.
+* npm run start-client: This script starts the client React code that displays the chatroom and allows clients to send messages to the server.
 
 ### Python Dependencies
 
 For running the server code locally, LLMChatroom also requires an installation of Python and the following dependencies, which can be acquired via pip or through an anaconda distribution. Python version 3.8 was used for developing this project.
 
-•	ctransformers
-•	fastapi
-•	starlette
-•	uvicorn[standard]
+* ctransformers
+* fastapi
+* starlette
+* uvicorn[standard]
