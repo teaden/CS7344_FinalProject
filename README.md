@@ -33,4 +33,3 @@ For running the server code locally, LLMChatroom also requires an installation o
 •	fastapi
 •	starlette
 •	uvicorn[standard]
-![image](https://github.com/teaden/CS7344_FinalProject/assets/19725253/f7be011a-dfc9-435c-8357-d3094b4d6027)
