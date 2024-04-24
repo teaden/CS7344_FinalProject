@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.h1-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem; /* 48px */
+  color: #ffffff; /* White color for the text */
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+  text-align: center;
+  margin-top: 50px; /* Space from the top of the page */
+  margin-bottom: 50px; /* Space before the chat form */
+}

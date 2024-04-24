@@ -1,0 +1,5 @@
+ctransformers==0.2.27
+fastapi==0.103.0
+starlette==0.27.0
+uvicorn==0.20.0
+

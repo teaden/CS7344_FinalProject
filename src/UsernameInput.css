@@ -1,0 +1,50 @@
+.user-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly; /* Adjust as needed for even distribution */
+  background-color: #e8e8e8;
+  padding: 40px;
+  border-radius: 8px;
+  width: 600px;
+  height: 500px;
+  margin-bottom: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-label {
+  font-size: 26px; /* Slightly larger font */
+  font-weight: bold;
+  color: #333;
+  height: 20%;
+}
+
+.user-text {
+  padding: 20px; /* More padding for a larger field */
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px; /* Larger font for input text */
+  width: 90%; /* Utilize full width */
+  margin-bottom: 10px; /* Reduced space below input field */
+}
+
+.submit-btn {
+  padding: 20px 40px; /* Larger button for more presence */
+  background-color: #5c67f2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 24px; /* Larger font size for the button text */
+  transition: background-color 0.3s;
+  margin-top: 10px; /* Reduced space above button */
+  width: 40%;
+}
+
+.submit-btn:hover {
+  background-color: #444ecf; /* Adjusted hover color to match the button */
+}
+
+
+
+
