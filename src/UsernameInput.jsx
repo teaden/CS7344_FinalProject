@@ -4,6 +4,8 @@ import "./UsernameInput.css";
 function UsernameInput({ onUsernameSubmit }) {
     const [username, setUsername] = useState("");
 
+    // Processes client entry of selected username
+    // Clear form username field after entry
     const handleSubmit = (e) => {
         e.preventDefault();
         onUsernameSubmit(username);
